@@ -25,12 +25,15 @@ implementation 'com.chaowen.util:moretextview:1.0'
 
 ## 在Activity或Fragment代码中使用
 ```
- moreTextView.setShowingLine(2); //只显示2行
+         moreTextView.setShowingLine(2); //只显示2行
        // moreTextView.setShowingChar(30);  //只显示30个字
 
         //设置展开与收起的文字
         moreTextView.addShowMoreText("展开");
         moreTextView.addShowLessText("收起");
+         //设置文字颜色
+        moreTextView.setShowMoreColor(Color.RED); 
+        moreTextView.setShowLessTextColor(Color.RED); 
 ```
 
 
