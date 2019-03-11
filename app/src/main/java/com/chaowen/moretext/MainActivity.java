@@ -15,10 +15,11 @@ public class MainActivity extends AppCompatActivity {
 
         moreTextView = findViewById(R.id.moreTextView);
 
-       // moreTextView.setShowingLine(2); //只显示2行
-        moreTextView.setShowingChar(30);  //只显示30个字
+        moreTextView.setShowingLine(2); //只显示2行
+       // moreTextView.setShowingChar(30);  //只显示30个字
 
         moreTextView.addShowMoreText("展开");
         moreTextView.addShowLessText("收起");
+
     }
 }
